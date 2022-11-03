@@ -90,7 +90,7 @@
   padding: 0.625em 2em;
 }
 
-.box-like a:hover {
+.box-like #yes:hover {
   color: #ffeb3b;
 }
 
@@ -245,5 +245,8 @@
   }
   .box-agree .btn {
     margin-left: 0px;
+  }
+  .box-agree a {
+    padding: 0.625em 1em;
   }
 }
