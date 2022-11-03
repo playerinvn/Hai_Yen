@@ -55,7 +55,7 @@ $("#no").click(() => {
 function textGenerate() {
   var n = "";
   var text =
-    " Bởi vì anh tốt bụng, đẹp trai, chăm chỉ, lãng mạng, ga lăng, đảm đang, đậm chất nghệ thuật, tài giỏi, hòa đồng với mọi người, sẵn sàn khám phá cái mới, chịu khó học hỏi, tài ăn nói và giao tiếp tuyệt vời, có nhiều sở thích giống em ... Haha, thực ra chính em cũng cảm thấy khó hiểu lắm nhưng tình yêu vốn là cái gì đó không thể giải thích..................... ";
+    " Bởi vì anh tốt bụng, đẹp trai, chăm chỉ, lãng mạng, ga lăng, đảm đang, đậm chất nghệ thuật, tài giỏi, hòa đồng với mọi người, sẵn sàn khám phá cái mới, chịu khó học hỏi, tài ăn nói và giao tiếp tuyệt vời, có nhiều sở thích giống em, đặc biệt là anh rất đứng đắn lịch sự không đen tối như những người đàn ông khác ... Haha, thực ra chính em cũng cảm thấy khó hiểu lắm nhưng tình yêu vốn là cái gì đó không thể giải thích ..................... ";
   var a = Array.from(text);
   var textVal = $("#txtReason").val() ? $("#txtReason").val() : "";
   var count = textVal.length;
