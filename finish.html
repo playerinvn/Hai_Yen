@@ -39,7 +39,7 @@
               <a href="#!" class="btn item tatnhac">&#9888; Tắt nhạc</a>
               <br /><br /><br />
               <p class="card-text item">
-                Ngày bắt đầu: <span style="color: #ffeb3b">19:56 19-10-2022</span>
+                Ngày bắt đầu: <span style="color: #ffeb3b">19:56:43 19-10-2022</span>
               </p>
               <p class="card-text item">
                 Hai bạn đã là người yêu của nhau trong:
@@ -78,7 +78,7 @@
         return Math.ceil((ms2 - ms1) / (24 * 60 * 60 * 1000));
       };
 
-      let ngayBatDau = new Date("Wed Oct 19 2022 19:56:00 GMT+0700");
+      let ngayBatDau = new Date("Wed Oct 19 2022 19:56:43 GMT+0700");
       let today = new Date();      
       let timeDaYeuNhau = get_day_of_time(ngayBatDau, today);
       document.getElementById("timeDaYeuNhau_show").innerHTML = timeDaYeuNhau;
