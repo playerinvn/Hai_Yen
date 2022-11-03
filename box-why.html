@@ -66,6 +66,7 @@
                 <a href="#!" id="submitSection3-3" class="btn mt-3 hidden"
                   >&#9785; Không, em muốn sửa lại</a
                 >
+                <p class="text-submitSection3-3 mt-3 hidden">Không cần sửa nữa đâu em, anh đã hiểu tấm lòng của em rồi &#10083;</p>
               </div>
             </div>
           </div>
@@ -93,9 +94,22 @@
         submitSection3.classList.add("hidden");
         submitSection3_2.classList.remove("hidden");
         submitSection3_3.classList.remove("hidden");
+
+        var audio_box_why = new Audio("sound/Nhac-Khong-Loi-Nhe-Nhang-V-A.mp3");
+        audio_box_why.loop = true;
+        audio_box_why.play();
       });
-      $("#submitSection3-3").hover(function () {
+      
+      $("#submitSection3-3").click(function () {
         $(this).addClass("hidden");
+        $(".text-submitSection3-3").removeClass("hidden");
+        if (document.querySelector(".text-submitSection3-3")) {
+          gsap.from(".text-submitSection3-3", {
+            opacity: 0,
+            duration: 1,
+            y: 100,
+          });
+        }
       });
     </script>
   </body>
