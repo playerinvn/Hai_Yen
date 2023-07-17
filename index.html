@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <title>Dự án Crush</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta property="og:image" content="https://playerinvn.github.io/Hai_Yen/images/chibi-1.jpg" />
+    <meta property="og:description" content="Anh hỏi em câu này em phải trả lời thật lòng nha." />
+
+    <link rel="icon" type="image/x-icon" href="images/favicon-heart.png">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <main>
+      <section class="start-box pt-5 pb-5">
+        <div class="container">
+          <div class="box-card">
+            <div
+              class="card text-center align-self-center"
+              style="max-width: 48rem"
+            >
+              <img
+                src="images/chibi-1.jpg"
+                class="card-img-top item"
+                alt="..."
+              />
+              <div class="card-body">
+                <h1 class="card-title item">Yến này &#9996;</h1>
+                <h3 class="card-text item">
+                  Anh hỏi em câu này em phải trả lời thật lòng nha.
+                </h3>
+                <a href="#!" class="btn mt-3 item item1" onclick="showSection2()"
+                  >&#10004; Dạ vâng ạ</a
+                >
+                <a href="#!" class="btn mt-3 item item2">&#10006; Không rảnh</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End section 1 -->
+
+      <section class="box-like pt-5 pb-5 hidden">
+        <div class="container">
+          <div class="box-card">
+            <div
+              class="card text-center align-self-center"
+              style="max-width: 58rem"
+            >
+              <img src="images/chibi-2.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h1 class="card-title">Em thích anh lắm phải không &#8265;</h1>
+                <h3 class="card-text">
+                  Nếu em ko trả lời mà thoát ra tức là muốn làm vợ anh rùi đó
+                  nha &#10084;
+                </h3>
+                <br />
+                <div class="box-btn">
+                  <a href="box-why.html" id="yes" class="btn btn-primary"
+                    >&#10004; Đúng ạ</a
+                  >
+                  <a href="#" id="no" class="btn btn-danger"
+                    >&#10006; Không hề</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End section 2 -->
+    </main>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/gsap.min.js"></script>
+    <script type="text/javascript" src="js/ScrollTrigger.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script>
+      $(".start-box .item2").click(function () {
+        alert(
+          "Nút bấm bị hỏng xin vui lòng thử lại với nút bấm khác"
+        );
+        $(".start-box .item2").addClass("hidden");
+
+        var audio_start_box = new Audio("sound/Tieng-qua-keu.mp3");
+        audio_start_box.play();
+      });
+    </script>
+  </body>
+</html>

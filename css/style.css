@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: both;
+}
+
+.show {
+  display: block !important;
+}
+.hidden {
+  display: none !important;
+}
+
+.start-box {
+  background: url(images/image_section_1.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+}
+
+.start-box .card {
+  background: transparent;
+  margin: auto;
+  border: none;
+}
+
+.start-box .card-body {
+  text-shadow: #e91e63 -1px -2px 0.5em;
+}
+
+.start-box .card-title {
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+}
+
+.start-box .card-img-top {
+  height: 150px;
+  object-fit: contain;
+}
+
+.start-box a {
+  background: #ef6a8a;
+  color: #fff;
+  font-size: 1.0625em;
+  padding: 0.625em 2em;
+}
+
+.start-box a.item2 {
+  background: #3f51b5;
+}
+
+.start-box a:hover {
+  color: #ffeb3b;
+}
+/* end start-box */
+
+.box-like {
+  background: url(images/image_section_2.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+  overflow: hidden;
+}
+
+.box-like .card {
+  background: transparent;
+  margin: auto;
+  border: none;
+}
+
+.box-like .card-body {
+  text-shadow: #e91e63 -1px -2px 0.5em;
+}
+
+.box-like .card-title {
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+}
+
+.box-like .card-img-top {
+  height: 150px;
+  object-fit: contain;
+}
+
+.box-like a {
+  color: #fff;
+  font-size: 1.0625em;
+  padding: 0.625em 2em;
+}
+
+.box-like #yes:hover {
+  color: #ffeb3b;
+}
+
+#no {
+  position: absolute;
+  display: inline-block;
+  left: 60%;
+  -webkit-transition: all 0.1s ease-out;
+}
+#yes {
+  position: absolute;
+  display: inline-block;
+  left: 30%;
+  -webkit-transition: all 0.3s ease-out;
+}
+/* end box-like */
+
+.box-why {
+  background: url("images/image_section_3.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+  overflow: hidden;
+}
+
+.box-why .card {
+  background: transparent;
+  margin: auto;
+  border: none;
+}
+
+.box-why .card-body {
+  text-shadow: #e91e63 -1px -2px 0.5em;
+}
+
+.box-why .card-img-top {
+  height: 150px;
+  object-fit: contain;
+}
+
+.box-why a {
+  color: #fff;
+  font-size: 1.0625em;
+  padding: 0.625em 2em;
+}
+
+.box-why a:hover {
+  color: #ffeb3b;
+}
+
+.box-why a {
+  color: #fff;
+  font-size: 1.0625em;
+  padding: 0.625em 2em;
+  background: #ef6a8a;
+}
+
+#submitSection3-3 {
+  background: #3f51b5;
+}
+
+.box-why a:hover {
+  color: #ffeb3b;
+}
+
+/* end box-why */
+
+.box-agree {
+  background: url("images/image_section_4.jpg")
+    no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+  overflow: hidden;
+}
+
+.box-agree .card {
+  background: transparent;
+  margin: auto;
+  border: none;
+}
+
+.box-agree .card-body {
+  text-shadow: #e91e63 -1px -2px 0.5em;
+}
+
+.box-agree .card-img-top {
+  height: 150px;
+  object-fit: contain;
+}
+
+.box-agree .btn {
+  margin-left: 30px;
+}
+
+.box-agree a {
+  color: #fff;
+  font-size: 1.0625em;
+  padding: 0.625em 2em;
+  background: #ef6a8a;
+}
+
+.box-agree a.item3 {
+  background: #3f51b5;
+}
+
+.box-agree a:hover {
+  color: #ffeb3b;
+}
+/* end box-agree */
+
+.box-finish {
+  background: url("images/image_section_finish.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+  overflow: hidden;
+}
+
+.box-finish .card {
+  background: transparent;
+  margin: auto;
+  border: none;
+}
+
+.box-finish .card-body {
+  text-shadow: #e91e63 -1px -2px 0.5em;
+}
+
+.box-finish .card-img-top {
+  height: 150px;
+  object-fit: contain;
+}
+
+.box-finish .card-title {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+}
+
+.box-finish a {
+  color: #fff;
+  font-size: 1.0625em;
+  padding: 0.325em 1em;
+  background: #ef6a8a;
+}
+
+.box-finish a:hover {
+  color: #ffeb3b;
+}
+/* end box-finish */
+
+@media (max-width: 1199px) {
+
+} 
+
+@media (max-width: 767px) {
+  .box-like a {
+    padding: 0.625em 1em;
+  }
+  #yes {
+    left: 10%;
+  }
+  .box-agree .btn {
+    margin-left: 0px;
+  }
+  .box-agree a {
+    padding: 0.625em 1em;
+  }
+}
